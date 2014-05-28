@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Pagayo_Pt001>
+			<version>0.1.0</version>
+		</Pagayo_Pt001>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<pt001>
+				<class>Pagayo_Setup_Block</class>
+    		</pt001>
+    	</blocks>
+    	<resources>
+    	    <pt001_setup>
+    	        <setup>
+    	            <module>Pagayo_Pt001</module>
+				  <class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+				  <use>default_setup</use>
+				</connection>
+    	    </pt001_setup>
+    	</resources>
+     </global>    
+</config>
